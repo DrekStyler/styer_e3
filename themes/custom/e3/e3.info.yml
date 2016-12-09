@@ -1,0 +1,15 @@
+name: styer_custom
+description: drupal 8 code challenge
+type: theme
+core: 8.x
+libraries:
+  - e3/global-css
+  - e3/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css?ohtzdh
+  - core/themes/stable/css/system/components/align.module.css?ohtzdh
+regions:
+  header: 'Header'
+  jumbotron: 'Jumbotron'
+  content_title: 'Content_title'
+  content: 'Main_content'

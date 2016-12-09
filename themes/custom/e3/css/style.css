@@ -1,0 +1,144 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+*{
+  font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+.page_logo {
+  width: 82px;
+  height: 82px;
+  float: left;
+  margin-left: 100px;
+}
+
+.event_header {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  height:100px;
+}
+.strip {
+  height:30px;
+  width: 80%;
+  background-color: #2EE8FF;
+  margin-left: 20%;
+}
+
+.event_nav {
+  text-align: right;
+  margin-right: 200px;
+}
+
+.event_nav_links {
+  margin: 35px;
+  font-style: normal;
+}
+
+.jumbo_img {
+  float:right;
+}
+
+.jumbo_title {
+  float:left;
+  padding-left: 20.5%;
+  width: 300px;
+  margin-top: -400px;
+}
+
+.center_event {
+  display: inline;
+  width: 100%;
+}
+
+p {
+  line-height: 2;
+}
+.img_wrapper {
+  height:542px;
+  border: solid black 1px;
+  -webkit-clip-path: polygon(55% 0, 100% 0, 100% 100%, 65% 100%);
+
+}
+
+.strip_wrapper {
+  -webkit-clip-path: polygon(25% 0, 100% 0, 100% 100%, 26% 100%);
+}
+
+.outline {
+  border:black 1px solid;
+}
+
+.event_view_image {
+  border-radius: 5px;
+  height: 200px;
+  width: 250px;
+}
+
+.path_wrapper {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
+}
+
+.event-title {
+  margin-top: -.5%;
+}
+
+.views-field-field-time-window {
+  margin-top: -8%;
+}
+
+.learn-more {
+  width: 105px;
+  border-top: 3px solid #FF5196;
+  color: #FF5196;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 12px;
+
+}
+
+a {
+  color:inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+.center_title {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #2EE8FF;
+}
+
+.views-field-field-event-date {
+  text-align: center;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  height: 100px;
+  color: #2EE8FF;
+  width: 100px;
+  background-color: white;
+  margin-bottom: -100px;
+  margin-left: 125px;
+  z-index: 5;
+  font-size: 1rem;
+  word-break: break-all;
+}
+
+.views-element-container h2 {
+  max-height: 100px;
+  padding: 25px;
+  margin-left: 40%;
+  text-align: center;
+  width: 220px;
+  background-color: black;
+  color: white;
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 86%);
+  display: flex;
+}
+
+.views-element-container {
+  padding-left: 100px;
+}
